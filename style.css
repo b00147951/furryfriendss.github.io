@@ -1,0 +1,509 @@
+@charset "UTF-8";
+
+body { 
+	
+	background-color: #7491C1; 
+	position: relative; 
+	min-height: 100vh; 
+	padding-top: 60px; 
+	margin: 0;
+	
+}
+
+.header {
+	
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 1;
+}
+
+.logo {
+	
+	position: fixed;
+	width: 250px;
+	float: left;
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+.logotext {
+	
+	padding-top: 15px;
+	
+}
+
+.navbar {
+	
+	display: flex;
+	padding-top: 20px;
+	font-family: Arial;
+	justify-content:flex-end;
+	background-color: #7491C1;
+	
+}
+
+.navbar a:hover {
+	
+	color: #486493;
+	
+}
+
+.navbar a {
+	
+	color: white;
+	padding: 14px;
+	text-decoration: none;
+	
+}
+
+.dropdown .dropbtn {
+	
+	font-size: 16px;
+	border: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit; 
+ 
+}
+
+.dropdownContent {
+	
+    display: none;
+    position: absolute;
+    background-color: #ABC3EA;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+}
+
+.dropdownContent a {
+	
+	float: none;
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+
+}
+
+.dropdownContent a:hover {
+	
+	background-color: #486493;
+	color: white;
+	
+}
+
+.dropdown:hover .dropdownContent {
+	
+	display: block;
+	
+}
+
+.homeSection {
+	
+	display: flex;
+	align-items: center;
+	padding: 50px;
+	height: 400px;	
+	
+}
+
+.homeSectionText h2 {
+	
+	font-family: Arial;
+	font-size: 50px;
+	color: white;
+	margin-bottom: 20px;
+	
+}
+
+.homeSectionText p {
+	
+    margin-bottom: 20px;
+	
+}
+
+.family {
+	
+	font-style: italic;
+	color: #3D4F6D;
+	
+}
+
+.homeButton {
+	
+	padding: 10px 20px;
+	background-color: #486493;
+	transition: background 0.2s ease;
+	font-family: Arial;
+	font-size: 13px;
+	text-decoration: none;
+	color: white;
+	border-radius: 50px;
+	
+}
+
+.homeButton:hover {
+	
+	background-color: white;
+	color: #486493;
+	
+}
+
+.homeImage{
+	
+	height: 125%;
+	margin-top: 18px;
+	margin-left: auto;
+	
+}
+
+
+.aboutsection {
+	
+	margin-top: 50px;
+	
+}
+
+.LocationOpening {
+	
+	height: 600px;
+	
+}
+
+.location {
+	
+	text-align: center;
+	float: left;
+	width: 40%;
+	
+}
+
+.locationtext {
+	
+	font-size:  12px;
+	font-family: Arial;
+	padding-bottom: 10px;
+	
+}
+
+.locationheading {
+	
+	font-size:  20px;
+	color: white;
+	font-family: Arial;
+	
+}
+
+.openingheading {
+	
+	color: white;
+	font-family: arial;
+	
+}
+
+.opening {
+	
+	text-align: center;
+	float: left;
+	margin-left: 100px;
+	width: 50%;
+	
+}
+
+.opening p {
+	
+	font-size: 12px;
+	padding-bottom: 10px;
+	
+}
+
+footer {
+	
+	background-color: #486493;
+	padding: 20px 0;
+	position:absolute;
+	bottom: 0;
+	width: 100%;
+	font-family: Arial;
+	
+}
+
+.footerTitle { 
+	
+	margin-left: 20px;
+	color: white;
+	font-size: 14px;
+	font-family: Arial;
+	
+}
+
+.container {
+	
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+nav a {
+	
+	color: white;
+	text-decoration: none;
+	margin-right: 20px;
+	
+}
+
+nav a:hover {
+	
+	text-decoration:none;
+	
+}
+
+p {
+	
+	margin: 0;
+	color: white;
+	font-size: 18px;
+	font-family: Arial;
+	
+}
+
+.puppy {
+	
+	height: 290px;
+	margin-top: 58px;
+	border-radius: 20px;
+	
+}
+
+.doggyhoteltext {
+	
+	float: left;
+	width: 550px;
+	font-family: Arial;
+	font-size: 15px;
+	
+}
+
+.servicesheading {
+	
+	margin-top: 100px;
+	text-align: center;
+	font-weight: bold;
+	font-family: Arial;
+	
+}
+
+.aboutheading {
+	
+	margin-top: -90px;
+	margin-left: 60px;
+	font-weight: bold;
+	font-family: Arial;
+	
+}
+
+.main {
+	
+	float: left;
+	padding: 100px;
+	margin: 20px;
+	width: 500px;
+	
+}
+
+.aboutimg {
+	
+	height: 500px;
+	
+}
+
+.sub {
+	
+	position: relative; 
+	margin-top: 13px;
+	margin-left: 60px;
+	font-weight: lighter;
+	font-family: Arial;
+	font-size: 14px;
+	
+}
+
+.swimming {
+	
+	float: right;
+	width: 480px;
+	margin-top: 130px;
+	margin-right: 145px;
+	border-radius: 20px;
+	
+}
+
+.groomingimg {
+	
+	float: left;
+	height: 235px;
+	margin-top: 120px;
+	margin-left: 55px;
+	
+}
+
+.grooming {
+	
+	border-radius: 20px;
+	height: 100%;
+	
+}
+
+.dogtrainingtext {
+	
+	width: 550px;
+	float: left;
+	font-size: 14px;
+	
+}
+
+.dogtrainingimg {
+	
+	float: right;
+	width: 450px;
+	margin-top: 110px;
+	margin-right: 150px;
+	border-radius: 20px;
+	
+}
+
+.grid {
+	
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+	
+}
+
+.column {
+	
+	max-width: 25%;
+	padding-right: 4px;
+	
+}
+
+.column img {
+	
+	border-radius: 20px;
+	width: 100%;
+	
+}
+
+.priceSection {
+	
+	text-align: center;
+	
+}
+
+.box1 {
+	
+	margin: 2%;
+    width: 25%;
+	border-radius: 40px;
+    background-image:linear-gradient(#7491c1, #486493);
+	
+}
+
+.box2 {
+	
+	margin: 2%;
+    width: 25%;
+	border-radius: 40px;
+	background-image:linear-gradient(#7491c1, #486493);
+	
+}
+
+.box3 {
+	
+	margin: 2%;
+    width: 25%;
+	border-radius: 40px;
+    background-image:linear-gradient(#7491c1, #486493);
+	
+}
+
+.prices {
+	
+	display: flex;
+    color: white;
+    font-family: Arial;
+    justify-content: center;
+    margin-top: 50px;
+    height: 400px;
+	
+}
+
+input[type=text], select, textarea {
+	
+	width: 100%; 
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border:none;
+	border-radius: 4px; 
+	margin-top: 6px;
+	margin-bottom: 16px; 
+	resize:none;
+	font-family: Arial; 
+	font-size: 15px;
+	
+}
+
+input[type=submit] {
+	
+	background-color: #486493;
+	border-radius: 4px;
+	cursor:pointer;
+	width:100%;
+	border:none;
+	padding:10px;
+	transition: background 0.2s ease;
+	font-family: Arial;
+	color: white;
+
+	}
+
+
+input[type=submit]:hover {
+	
+	background-color: white;
+	color: #486493;
+	
+}
+
+.contactbody {
+	
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+.contactcontainer {
+	
+	border-radius: 5px;
+	background-color: #7491C1;
+	padding: 20px;
+	width: 100%;
+	
+}
+
+.contact1 {
+	
+	width: 400px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8%;
+
+}
